@@ -1,0 +1,22 @@
+PODS:
+  - app_icon_changer (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - app_icon_changer (from `.symlinks/plugins/app_icon_changer/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  app_icon_changer:
+    :path: ".symlinks/plugins/app_icon_changer/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  app_icon_changer: d315e8e7cdc18a6f18e2daf86869fb5f242c54ca
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4
