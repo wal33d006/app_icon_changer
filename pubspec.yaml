@@ -1,8 +1,7 @@
 name: app_icon_changer
-description: A new flutter plugin project.
+description: Change app icons in iOS through Flutter code.
 version: 0.0.1
-author:
-homepage:
+homepage: https://github.com/wal33d006/app_icon_changer
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
