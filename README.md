@@ -58,3 +58,16 @@ Change your app icon right from your Flutter code!
 
 Replace icon-white and icon-black with your icon names. You can also add more
 keys depending on the number of icons you want to keep.
+
+### Dart side
+Add the dependency in pubspec.yaml and call the package through like this:
+```
+Future<void> setAppIcon(String name) async {
+    try {
+      await AppIconChanger.changeIcon(name);
+    } on PlatformException {
+      print('Failed to change app icon');
+    }
+    if (!mounted) return;
+  }
+```
