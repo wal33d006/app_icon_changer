@@ -2,3 +2,7 @@
 
 * Initial implementation for iOS
 * Supports iOS 10.3 and above
+
+## 1.0.0
+
+* Updated description
