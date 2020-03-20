@@ -1,3 +1,4 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial implementation for iOS
+* Supports iOS 10.3 and above

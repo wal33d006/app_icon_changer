@@ -1,7 +1,8 @@
 # app_icon_changer
-[iOS only]
 
-Change your app icon right from your Flutter code!
+Change your app icon right from your Flutter code! **[iOS only]**
+
+*Runs on iOS 10.3 and above*
 
 ## Usage
 
