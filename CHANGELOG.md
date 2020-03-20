@@ -6,3 +6,7 @@
 ## 1.0.0
 
 * Updated description
+
+## 1.0.1
+
+* Updated description within the recommended character count
