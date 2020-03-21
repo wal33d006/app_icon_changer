@@ -10,3 +10,7 @@
 ## 1.0.1
 
 * Updated description within the recommended character count
+
+## 1.0.2
+
+* Updated deployment target in example

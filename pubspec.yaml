@@ -3,7 +3,7 @@ description:
   The package allows the user to change iOS
   app icons directly from Flutter code. The package uses Method channels to implement
   icon changes.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/wal33d006/app_icon_changer
 
 environment:
