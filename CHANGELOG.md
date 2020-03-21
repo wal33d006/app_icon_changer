@@ -14,3 +14,7 @@
 ## 1.0.2
 
 * Updated deployment target in example
+
+## 1.0.3
+
+* Update readme description

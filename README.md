@@ -7,9 +7,14 @@ Change your app icon right from your Flutter code! **[iOS only]**
 ## Usage
 
 ### Settings for iOS
-- Open iOS module in XCode.
-- Right click on Runner folder and select ***New Group without Folder***
+- Navigate to iOS folder in your Flutter app.
+- Right click on Runner folder and add a new directory named *App Icons*
 - Add your icons in the folder
+- Right click on the folder you just added and open it in Finder
+- Now open your iOS module in XCode
+- You won't find your folder inside XCode
+- Drag the folder from Finder under the Runner folder (Now XCode knows you 
+added a folder)
 - Open Info.plist as source code and add the following code
 
 ```
@@ -57,7 +62,7 @@ Change your app icon right from your Flutter code! **[iOS only]**
     </dict>
 ```
 
-Replace icon-white and icon-black with your icon names. You can also add more
+Replace *icon-white* and *icon-black* with your icon names. You can also add more
 keys depending on the number of icons you want to keep.
 
 ### Dart side
