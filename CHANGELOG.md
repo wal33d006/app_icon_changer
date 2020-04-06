@@ -18,3 +18,11 @@
 ## 1.0.3
 
 * Update readme description
+
+## 1.0.4
+
+* Add comments in public APIs
+
+## 1.0.5
+
+* Format dart file

@@ -3,22 +3,25 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 
 class AppIconChanger {
-  /* Method channel call for iOS implementation which changes the app icon based
-   * on the values you set in your info plist.
-   * The plugin only supports iOS implementation because Android currently
-   * doesn't official support an icon change. There are, however, hacks to change
-   * shortcut icons in Android.
-   */
+  /// Creates a const Method Channel variable
+  /// [app_icon_changer] is the name of the method to be invoked in the platform
   static const MethodChannel _channel = const MethodChannel('app_icon_changer');
 
+  /// Checks for the platform and calls the method
   static Future<void> changeIcon(String iconName) async {
+    /// Supports only iOS
+    /// Android has hacks of changing the icon,
+    /// but none of them are supported officially
     if (!Platform.isIOS)
+
+      /// Throws an exception if the platform is iOS
       throw PlatformException(
         code: '3',
         message: 'This plugin is only supported by iOS',
         details: 'NotImplemented',
       );
-    // [iconName] The icon from the application is passed into the method channel
+
+    /// [iconName] The icon from the application is passed into the method channel
     await _channel.invokeMethod('setIcon', iconName);
   }
 }
