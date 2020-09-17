@@ -13,8 +13,7 @@ Change your app icon right from your Flutter code! **[iOS only]**
 - Right click on the folder you just added and open it in Finder
 - Now open your iOS module in XCode
 - You won't find your folder inside XCode
-- Drag the folder from Finder under the Runner folder (Now XCode knows you 
-added a folder)
+- Drag the folder from Finder under the Runner folder and choose ```Create groups``` - this is important, otherwise it won't work (Now XCode knows you added a folder)
 - Open Info.plist as source code and add the following code
 
 ```
